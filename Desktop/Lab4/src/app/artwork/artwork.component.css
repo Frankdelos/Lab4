@@ -1,0 +1,224 @@
+#about-container {
+    height: 100%;
+    overflow: auto;
+}
+#about-container-inner {
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+}
+.main-nav {
+    border: 1px solid #bbb
+}
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #222;
+    border-color: #080808;
+    height: 55px;
+    border-radius: 4px;
+    /* align-items: center; */
+    padding: 1em;
+}
+.welcome-text {
+    color: #ffffff
+}
+.top-nav-items {
+    list-style-type: none;
+}
+.top-nav-items li {
+    display: inline;
+}
+.top-nav-items li  a {
+    color: white;
+    padding: 5px;
+}
+.logo-text {
+    font-size: 1.75em !important;
+    font-weight: bold;
+}
+.white {
+    background-color: #fff !important;
+}
+.banner {
+    /* height: 340px; */
+    border-radius: 10px;
+    background-image: url('../../assets/img/whistler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 14%;
+    color: white;
+    padding: 3em;
+}
+
+.art-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 1em;
+}
+.art-c1-content {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-column-gap: 2em;
+    /* height: 100%; */
+}
+.left {
+    background-image: url('../../assets/img/113010.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.red-text {
+    color: red;
+}
+.btn-bordered{
+    border: 1px solid #ccc;
+}
+.product-table {
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #ccc;
+    margin-top: 1em;
+}
+.product-table thead tr {
+    background-color: #f1f1f1;
+}
+.product-table td {
+    border-bottom: 1px solid #CCC;
+    padding: 2px 3px;
+}
+.similar-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    text-align: center;
+    grid-column-gap: 1em;
+    margin: 20px 0px;
+}
+.small-text {
+    font-size: .95em;
+    text-align: center;
+}
+.bordered {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 1em;
+}
+/* sidebar begins */
+.left-sidebar-block {
+    border-radius: 7px;
+    border: 1px solid blue;
+    min-height: 250px;
+    margin-bottom: 20px;
+}
+.light-blue {
+    border: 1px solid #428bca;
+}
+.accent-blue {
+    border: 1px solid #d9edf7;
+}
+.accent-background {
+    background-color: #d9edf7;
+}
+h3.block-header {
+    background-color: #428bca;
+    color: #fff;
+    padding: 7px;
+    font-size: 1em;
+}
+h3.block-header-accent {
+    background-color: #d9edf7;
+    color: #31708f;
+    padding: 7px;
+    font-size: 1em;
+}
+.sidebar-list {
+    list-style-type: none;
+    text-align: center;
+    padding: .5em;
+}
+.sidebar-list > li {
+    overflow: auto;
+    /* margin-bottom: 10px; */
+}
+.sidebar-list > li > img {
+    margin-right: 5px;
+}
+.pull-left {
+    float: left;
+}
+.align-text-left {
+    text-align: left;
+}
+.tiny-txt {
+    font-size: .7em;
+}
+.sidebar-list >li > a {
+    padding: 7px 0px;
+    display: block;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.sidebar-list > li > a:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-below {
+    padding: 10px
+}
+/* sidebar ends */
+
+/* footer start */
+.top-footer {
+    /* margin-top: 200px; */
+    background-color: #e7e7e7;
+}
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    width: 80%;
+    margin: 0px auto;
+    height: 350px;
+    padding: 10px 0px 0px;
+}
+
+.medium-text {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+.footer-list > li {
+    margin-bottom: 15px;
+    overflow: auto;
+}
+ul.footer-list > li > img {
+    float: left;
+    margin-right: 10px;
+}
+.footer-link {
+    padding: 15px 0px;
+    display: block
+}
+.bottom-footer {
+    background-color: #3a3a3a;
+    color: #777
+}
+
+.footer-bottom-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 80%;
+    margin: 0px auto;
+}
+.footer-bottom-inner > span {
+    padding: 0px auto;
+    display: block;
+
+}
+/* footer end */
